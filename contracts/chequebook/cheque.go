@@ -43,7 +43,6 @@ import (
 	"github.com/taugas/taugas/core/types"
 	"github.com/taugas/taugas/crypto"
 	"github.com/taugas/taugas/log"
-	"github.com/taugas/taugas/swarm/services/swap/swap"
 )
 
 // TODO(zelig): watch peer solvency and notify of bouncing cheques
@@ -84,6 +83,12 @@ type Params struct {
 }
 
 var ContractParams = &Params{contract.ChequebookBin, contract.ChequebookABI}
+
+// Promise
+// 3rd party Provable Promise of Payment
+// issued by outPayment
+// serialisable to send with Protocol
+type Promise interface{}
 
 // Chequebook can create and sign cheques from a single contract to multiple beneficiaries.
 // It is the outgoing payment handler for peer to peer micropayments.
@@ -409,7 +414,7 @@ func NewOutbox(chbook *Chequebook, beneficiary common.Address) *Outbox {
 }
 
 // Issue creates cheque.
-func (self *Outbox) Issue(amount *big.Int) (swap.Promise, error) {
+func (self *Outbox) Issue(amount *big.Int) (Promise, error) {
 	return self.chequeBook.Issue(self.beneficiary, amount)
 }
 
@@ -545,7 +550,7 @@ func (self *Inbox) autoCash(cashInterval time.Duration) {
 
 // Receive is called to deposit the latest cheque to the incoming Inbox.
 // The given promise must be a *Cheque.
-func (self *Inbox) Receive(promise swap.Promise) (*big.Int, error) {
+func (self *Inbox) Receive(promise Promise) (*big.Int, error) {
 	ch := promise.(*Cheque)
 
 	defer self.lock.Unlock()
