@@ -26,11 +26,11 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/secp256k1"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/core"
+	"github.com/taugas/taugas/crypto"
+	"github.com/taugas/taugas/crypto/secp256k1"
+	"github.com/taugas/taugas/rlp"
 )
 
 // Constants to match up protocol versions and messages

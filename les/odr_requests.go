@@ -23,15 +23,15 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/core"
+	"github.com/taugas/taugas/core/types"
+	"github.com/taugas/taugas/crypto"
+	"github.com/taugas/taugas/ethdb"
+	"github.com/taugas/taugas/light"
+	"github.com/taugas/taugas/log"
+	"github.com/taugas/taugas/rlp"
+	"github.com/taugas/taugas/trie"
 )
 
 var (

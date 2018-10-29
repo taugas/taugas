@@ -17,9 +17,9 @@
 package runtime
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/core"
+	"github.com/taugas/taugas/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

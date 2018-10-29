@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rpc"
+	ethereum "github.com/taugas/taugas"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/common/hexutil"
+	"github.com/taugas/taugas/core/types"
+	"github.com/taugas/taugas/ethdb"
+	"github.com/taugas/taugas/event"
+	"github.com/taugas/taugas/rpc"
 )
 
 var (

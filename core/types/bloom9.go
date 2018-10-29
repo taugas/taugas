@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/taugas/taugas/common/hexutil"
+	"github.com/taugas/taugas/crypto"
 )
 
 type bytesBacked interface {

@@ -23,10 +23,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/core/types"
+	"github.com/taugas/taugas/p2p"
+	"github.com/taugas/taugas/rlp"
 	"gopkg.in/fatih/set.v0"
 )
 

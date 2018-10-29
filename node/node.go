@@ -26,13 +26,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/taugas/taugas/accounts"
+	"github.com/taugas/taugas/ethdb"
+	"github.com/taugas/taugas/event"
+	"github.com/taugas/taugas/internal/debug"
+	"github.com/taugas/taugas/log"
+	"github.com/taugas/taugas/p2p"
+	"github.com/taugas/taugas/rpc"
 	"github.com/prometheus/prometheus/util/flock"
 )
 

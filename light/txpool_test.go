@@ -23,13 +23,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/consensus/ethash"
+	"github.com/taugas/taugas/core"
+	"github.com/taugas/taugas/core/types"
+	"github.com/taugas/taugas/core/vm"
+	"github.com/taugas/taugas/ethdb"
+	"github.com/taugas/taugas/params"
 )
 
 type testTxRelay struct {

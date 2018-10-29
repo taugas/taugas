@@ -24,12 +24,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/taugas/taugas"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/common/hexutil"
+	"github.com/taugas/taugas/core/types"
+	"github.com/taugas/taugas/rlp"
+	"github.com/taugas/taugas/rpc"
 )
 
 // Client defines typed wrappers for the Ethereum RPC API.

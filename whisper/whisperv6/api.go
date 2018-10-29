@@ -24,12 +24,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/common/hexutil"
+	"github.com/taugas/taugas/crypto"
+	"github.com/taugas/taugas/log"
+	"github.com/taugas/taugas/p2p/discover"
+	"github.com/taugas/taugas/rpc"
 )
 
 // List of errors

@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/consensus"
+	"github.com/taugas/taugas/consensus/misc"
+	"github.com/taugas/taugas/core/state"
+	"github.com/taugas/taugas/core/types"
+	"github.com/taugas/taugas/core/vm"
+	"github.com/taugas/taugas/ethdb"
+	"github.com/taugas/taugas/params"
 )
 
 // So we can deterministically seed different blockchains

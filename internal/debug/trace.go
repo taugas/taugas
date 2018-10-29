@@ -23,7 +23,7 @@ import (
 	"os"
 	"runtime/trace"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/taugas/taugas/log"
 )
 
 // StartGoTrace turns on tracing, writing to the given file.

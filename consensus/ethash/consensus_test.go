@@ -23,9 +23,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/taugas/taugas/common/math"
+	"github.com/taugas/taugas/core/types"
+	"github.com/taugas/taugas/params"
 )
 
 type diffTest struct {

@@ -27,13 +27,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/taugas/taugas/accounts/keystore"
+	"github.com/taugas/taugas/cmd/utils"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/common/hexutil"
+	"github.com/taugas/taugas/core/types"
+	"github.com/taugas/taugas/internal/ethapi"
+	"github.com/taugas/taugas/rlp"
 )
 
 //Used for testing

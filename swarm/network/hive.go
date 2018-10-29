@@ -22,13 +22,13 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
-	"github.com/ethereum/go-ethereum/swarm/network/kademlia"
-	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/log"
+	"github.com/taugas/taugas/metrics"
+	"github.com/taugas/taugas/p2p/discover"
+	"github.com/taugas/taugas/p2p/netutil"
+	"github.com/taugas/taugas/swarm/network/kademlia"
+	"github.com/taugas/taugas/swarm/storage"
 )
 
 // Hive is the logistic manager of the swarm

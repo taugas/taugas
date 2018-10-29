@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/taugas/taugas/core/state"
+	"github.com/taugas/taugas/core/types"
+	"github.com/taugas/taugas/params"
 )
 
 var (

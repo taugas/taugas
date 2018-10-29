@@ -22,11 +22,11 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/core/types"
+	"github.com/taugas/taugas/internal/ethapi"
+	"github.com/taugas/taugas/params"
+	"github.com/taugas/taugas/rpc"
 )
 
 var maxPrice = big.NewInt(500 * params.Shannon)

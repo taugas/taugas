@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/taugas/taugas/log"
+	"github.com/taugas/taugas/metrics"
 )
 
 //metrics variables

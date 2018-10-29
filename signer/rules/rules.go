@@ -22,12 +22,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/rules/deps"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/internal/ethapi"
+	"github.com/taugas/taugas/log"
+	"github.com/taugas/taugas/signer/core"
+	"github.com/taugas/taugas/signer/rules/deps"
+	"github.com/taugas/taugas/signer/storage"
 	"github.com/robertkrimen/otto"
 )
 

@@ -21,9 +21,9 @@ import (
 	"hash"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/crypto/sha3"
+	"github.com/taugas/taugas/rlp"
 )
 
 type hasher struct {

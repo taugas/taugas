@@ -20,11 +20,11 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/core"
+	"github.com/taugas/taugas/core/types"
+	"github.com/taugas/taugas/crypto"
+	"github.com/taugas/taugas/rlp"
 )
 
 var sha3_nil = crypto.Keccak256Hash(nil)

@@ -25,15 +25,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/common/hexutil"
+	"github.com/taugas/taugas/common/math"
+	"github.com/taugas/taugas/core"
+	"github.com/taugas/taugas/core/types"
+	"github.com/taugas/taugas/core/vm"
+	"github.com/taugas/taugas/ethdb"
+	"github.com/taugas/taugas/rlp"
+	"github.com/taugas/taugas/tests"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

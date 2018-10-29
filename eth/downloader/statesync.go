@@ -22,13 +22,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/core"
+	"github.com/taugas/taugas/core/state"
+	"github.com/taugas/taugas/crypto/sha3"
+	"github.com/taugas/taugas/ethdb"
+	"github.com/taugas/taugas/log"
+	"github.com/taugas/taugas/trie"
 )
 
 // stateReq represents a batch of state fetch requests grouped together into

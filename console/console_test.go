@@ -26,12 +26,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/consensus/ethash"
+	"github.com/taugas/taugas/core"
+	"github.com/taugas/taugas/eth"
+	"github.com/taugas/taugas/internal/jsre"
+	"github.com/taugas/taugas/node"
 )
 
 const (

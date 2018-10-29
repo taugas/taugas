@@ -25,14 +25,14 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/accounts/usbwallet"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
+	"github.com/taugas/taugas/accounts"
+	"github.com/taugas/taugas/accounts/keystore"
+	"github.com/taugas/taugas/accounts/usbwallet"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/crypto"
+	"github.com/taugas/taugas/log"
+	"github.com/taugas/taugas/p2p"
+	"github.com/taugas/taugas/p2p/discover"
 )
 
 const (

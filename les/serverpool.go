@@ -27,13 +27,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/discv5"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/taugas/taugas/common/mclock"
+	"github.com/taugas/taugas/ethdb"
+	"github.com/taugas/taugas/log"
+	"github.com/taugas/taugas/p2p"
+	"github.com/taugas/taugas/p2p/discover"
+	"github.com/taugas/taugas/p2p/discv5"
+	"github.com/taugas/taugas/rlp"
 )
 
 const (

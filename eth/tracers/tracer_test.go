@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/core/vm"
+	"github.com/taugas/taugas/params"
 )
 
 type account struct{}

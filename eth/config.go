@@ -24,13 +24,13 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/gasprice"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/common/hexutil"
+	"github.com/taugas/taugas/consensus/ethash"
+	"github.com/taugas/taugas/core"
+	"github.com/taugas/taugas/eth/downloader"
+	"github.com/taugas/taugas/eth/gasprice"
+	"github.com/taugas/taugas/params"
 )
 
 // DefaultConfig contains default settings for use on the Ethereum main net.

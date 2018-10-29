@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/light"
+	"github.com/taugas/taugas/core"
+	"github.com/taugas/taugas/eth/downloader"
+	"github.com/taugas/taugas/light"
 )
 
 // syncer is responsible for periodically synchronising with the network, both

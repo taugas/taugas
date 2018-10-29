@@ -26,13 +26,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/les/flowcontrol"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/core/types"
+	"github.com/taugas/taugas/eth"
+	"github.com/taugas/taugas/les/flowcontrol"
+	"github.com/taugas/taugas/light"
+	"github.com/taugas/taugas/p2p"
+	"github.com/taugas/taugas/rlp"
 )
 
 var (

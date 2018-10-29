@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/crypto"
+	"github.com/taugas/taugas/ethdb"
 )
 
 func init() {

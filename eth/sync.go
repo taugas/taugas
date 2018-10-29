@@ -21,11 +21,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/core/types"
+	"github.com/taugas/taugas/eth/downloader"
+	"github.com/taugas/taugas/log"
+	"github.com/taugas/taugas/p2p/discover"
 )
 
 const (

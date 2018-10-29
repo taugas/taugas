@@ -26,9 +26,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/log"
+	"github.com/taugas/taugas/swarm/storage"
 )
 
 const maxParallelFiles = 5

@@ -24,9 +24,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/log"
+	"github.com/taugas/taugas/swarm/storage"
 )
 
 func testApi(t *testing.T, f func(*Api)) {

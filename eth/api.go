@@ -25,17 +25,17 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/taugas/taugas/common"
+	"github.com/taugas/taugas/common/hexutil"
+	"github.com/taugas/taugas/core"
+	"github.com/taugas/taugas/core/state"
+	"github.com/taugas/taugas/core/types"
+	"github.com/taugas/taugas/log"
+	"github.com/taugas/taugas/miner"
+	"github.com/taugas/taugas/params"
+	"github.com/taugas/taugas/rlp"
+	"github.com/taugas/taugas/rpc"
+	"github.com/taugas/taugas/trie"
 )
 
 // PublicEthereumAPI provides an API to access Ethereum full node-related
