@@ -15,7 +15,7 @@ or, to build the full suite of utilities:
     make all
 
 
-#### License
+## License
 
 The taugas is licensed under the GPL3. 
 
