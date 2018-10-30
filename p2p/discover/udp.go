@@ -58,7 +58,7 @@ const (
 
 // RPC packet types
 const (
-	pingPacket = iota + 1 // zero is 'reserved'
+	pingPacket = iota + 1000 // change from 1 to 100 for taugras 
 	pongPacket
 	findnodePacket
 	neighborsPacket
