@@ -1,0 +1,35 @@
+version: '3.3'
+services:
+
+  peer1:
+    image: taugas
+    command: taugas  --bootnodes enode://581216993ebe48028594433225d2e8c2cce27c427727850858cb102ea7865b39d02acd48a0ab745c9a83923b340e8b309348c2c7aedbf2569d36f729be94f8ff@172.25.0.2:52525 --unlock 0x903def769095c9e86c22f4108368deecb1c6d3a7 --password "/root/.taugas/password" --mine --etherbase 0x903def769095c9e86c22f4108368deecb1c6d3a7
+    volumes:
+      - /etc/localtime:/etc/localtime
+      - ./docker/peer1/:/root/.taugas/
+    environment:
+      - TZ=Asia/Shanghai
+    external_links:
+      - taugas_bootnode_1
+
+  peer2:
+    image: taugas
+    command: taugas  --bootnodes enode://581216993ebe48028594433225d2e8c2cce27c427727850858cb102ea7865b39d02acd48a0ab745c9a83923b340e8b309348c2c7aedbf2569d36f729be94f8ff@172.25.0.2:52525 --unlock 0xc12115b9d8bdc655ae4b0f27561ac8914f8a9c13 --password "/root/.taugas/password" --mine --etherbase 0xc12115b9d8bdc655ae4b0f27561ac8914f8a9c13
+    volumes:
+      - /etc/localtime:/etc/localtime
+      - ./docker/peer2/:/root/.taugas/
+    environment:
+      - TZ=Asia/Shanghai
+    external_links:
+      - taugas_bootnode_1
+
+  peer3:
+    image: taugas
+    command: taugas  --bootnodes enode://581216993ebe48028594433225d2e8c2cce27c427727850858cb102ea7865b39d02acd48a0ab745c9a83923b340e8b309348c2c7aedbf2569d36f729be94f8ff@172.25.0.2:52525 --unlock 0x9ff04fa00509dec1eea52649fb1c2754c4d703a9 --password "/root/.taugas/password" --mine --etherbase 0x9ff04fa00509dec1eea52649fb1c2754c4d703a9
+    volumes:
+      - /etc/localtime:/etc/localtime
+      - ./docker/peer3/:/root/.taugas/
+    environment:
+      - TZ=Asia/Shanghai
+    external_links:
+      - taugas_bootnode_1

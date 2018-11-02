@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  bootnode:
+    image: taugas
+    command: bootnode --verbosity 9 --nodekey=/root/.taugas/boot.key
+    volumes:
+      - /etc/localtime:/etc/localtime
+      - ./docker/:/root/.taugas/
+    expose:
+      - "52525/udp"
+

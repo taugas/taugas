@@ -45,3 +45,10 @@ profile.cov
 /dashboard/assets/package-lock.json
 
 **/yarn-error.log
+
+#docker compose
+/docker-compose-bootnode.yml
+/docker-compose.yml
+/docker/peer1
+/docker/peer2
+/docker/peer3
